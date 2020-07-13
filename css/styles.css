@@ -156,19 +156,20 @@ ul li a:hover{
 	float: left;
 	margin-top: 500px;
 }
-@media only screen and (max-width: 768px) {
-	.navbar-brand{
-		display: block;
-	}
-	ul li a{
-		display: block;
-	}
-	.char{
-		display: block;
-		position: flex;
+@media(max-width: 550px){
+	.btn{
+		width: 100% !important;
 	}
 	.jyoti{
-		display: block;
-		position: flex;
+		width: 100% !important;
+	}
+	.char{
+		width: 100% !important;
+	}
+	.temple{
+		width: 100% !important;
+	}
+	.b1{
+		width: 100% !important;
 	}
 }
