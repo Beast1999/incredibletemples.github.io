@@ -1,0 +1,17 @@
+.para{
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+  
+}
+.para1{
+	float: left;
+}
+.footer{
+	position: absolute;
+	top: 1270px;
+	
+}

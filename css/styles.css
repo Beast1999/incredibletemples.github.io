@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1800px;
+    width: 100%;
+	
+	
+}
+
+#header-nav{
+	
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/om.png') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 5px 10px 5px 0;
+
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Galada', cursive;
+	color: #ff0000;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 1px;
+	left: 50px;
+	margin-left: 250px;
+	
+	
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #ffff00;
+	padding: 5px 20px;
+	border: 3px solid #000000;
+	transition: 0.8s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+
+
+.btn{
+	text-decoration: none;
+	color: #ff0000;
+	padding: 10px 50px;
+	border: 5px solid #000000;
+	transition: 0.6s ease;
+    font-size: 30px; 
+    margin-left: 800px;
+    margin-top: 200px;
+    width: 20%;
+    float: left;
+}
+.btn{
+	text-decoration: none;
+	color: #ff0000;
+	padding: 10px 50px;
+	border: 5px solid #000000;
+	transition: 0.6s ease;
+    font-size: 30px; 
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 20%;
+    float: left;
+}
+
+.btn:hover{
+	background-color: #000;
+	color: #00FF00;
+}
+.jyoti{
+	float: left;
+	width: 30%;
+	height: 250px;
+	margin-top: 270px;
+	margin-left: -350px;
+	
+	border: 3px solid #000;
+}	
+
+.char{
+	float: left;
+	width: 30%;
+	height: 200px;
+	margin-top: 300px;
+	margin-left: -950px;
+	border: 3px solid #000;
+	
+}
+
+
+
+.temple{
+	float: left;
+	width: 100%;
+	margin-top: 80px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+.temple:hover{
+	color: #7cfc00;
+}
+
+.b1{
+	float: left;
+	width: 50%;
+	margin-left: 650px;
+	margin-top: 110px;
+	text-decoration: underline;
+	color:#4169e1; 
+
+}
+.footer{
+	float: left;
+	margin-top: 500px;
+}
+@media only screen and (max-width: 768px) {
+	.navbar-brand{
+		display: block;
+	}
+	ul li a{
+		display: block;
+	}
+	.char{
+		display: block;
+		position: flex;
+	}
+	.jyoti{
+		display: block;
+		position: flex;
+	}
+}

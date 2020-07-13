@@ -1,0 +1,123 @@
+.badri{
+	width: 20%;
+	height: auto;
+	float: left;
+	padding-top: 90px;
+	
+	
+}
+
+.name{
+	width: 80%;
+	height: auto;
+	float: left;
+	padding-left: 5px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+
+
+}
+.name:hover{
+	color: #7fffd4;
+}
+
+.jazz{
+	width: 20%;
+	height: auto;
+	float: right;
+	padding-top: 80px;
+	
+}
+.ab{
+	width: 80%;
+	height: auto;
+	float: right;
+	padding-top: 80px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+.ab:hover{
+	color: #7fffd4;
+}
+
+.cd{
+	width: 20%;
+	height: auto;
+	float: left;
+	padding-top: 110px;
+	
+}
+.ef{
+	width: 80%;
+	height: auto;
+	float: left;
+	padding-left: 8px;
+	padding-top: 110px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+	
+
+
+
+.ef:hover{
+	color: #7fffd4;
+}
+
+.gh{
+	width: 20%;
+	height: auto;
+	float: right;
+	height: 320px;
+	padding-top: 140px;
+	
+
+	
+}
+
+.ij{
+	width: 80%;
+	height: auto;
+	float: right;
+	padding-top: 130px;
+	padding-right: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.ij:hover{
+	color: #7fffd4;
+}
+.foot{
+	float: left;
+	margin-top: 100px;
+}	
+
+@media(max-width: 550px){
+	.badri{
+		width: 100% !important;
+	}
+	.name{
+		width: 100% !important;
+	}
+	.jazz{
+		width: 100% !important;
+	}
+	.ab{
+		width: 100% !important;
+	}
+	.cd{
+		width: 100% !important;
+	}
+	.ef{
+		width: 100% !important;
+	}
+	.gh{
+		width: 100% !important;
+	}
+	.ij{
+		width: 100% !important;
+	}
+}
